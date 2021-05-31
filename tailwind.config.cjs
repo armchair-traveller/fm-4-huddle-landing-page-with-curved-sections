@@ -4,12 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // TODO: Your colors here
-        main: {
-          100: "#FFF",
-          200: "#FFF",
-          300: "#FFF",
+        primary: {
+          100: "#ff52bf",
+          200: "#ff8fd8",
+          300: "#ff4242",
           400: "#FFF",
+        },
+        neutral: {
+          100: "#00252e",
+          200: "#f5faff",
         },
       },
     },
