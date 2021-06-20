@@ -1,23 +1,19 @@
-import sveltePreprocess from "svelte-preprocess";
+import preprocess from "svelte-preprocess";
 import stic from "@sveltejs/adapter-static";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+  kit: {
+    // hydrate the <div id="svelte"> element in src/app.html
+    target: "#svelte",
+    adapter: stic(),
+  },
+
   preprocess: [
-    sveltePreprocess({
-      defaults: {
-        style: "postcss",
-      },
+    preprocess({
       postcss: true,
     }),
   ],
-  kit: {
-    // `npm run build` will create a standard static app.
-    adapter: stic(),
-
-    // hydrate <div id="svelte"> el src/app.html
-    target: "#svelte",
-  },
 };
 
 export default config;
