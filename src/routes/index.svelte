@@ -1,10 +1,10 @@
 <script>
-  import Attribution from "$lib/Attribution.svelte";
-  import Link from "$lib/Link.svelte";
+import Attribution from '$lib/Attribution.svelte'
+import Link from '$lib/Link.svelte'
 </script>
 
 <svelte:head>
-  Frontend Mentor | Huddle landing page with curved sections
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </svelte:head>
 
 <main>
@@ -14,9 +14,8 @@
     <h1>Build The Community Your Fans Will Love</h1>
 
     <p>
-      Huddle re-imagines the way we build communities. You have a voice, but so
-      does your audience. Create connections with your users as you engage in
-      genuine discussion.
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections
+      with your users as you engage in genuine discussion.
     </p>
 
     <Link>Get Started For Free</Link>
@@ -29,35 +28,33 @@
 
     <h2>Grow Together</h2>
     <p>
-      Generate meaningful discussions with your audience and build a strong,
-      loyal community. Think of the insightful conversations you miss out on
-      with a feedback form.
+      Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful
+      conversations you miss out on with a feedback form.
     </p>
 
     <h2>Flowing Conversations</h2>
     <p>
-      You wouldn't paginate a conversation in real life, so why do it online?
-      Our threads have just-in-time loading for a more natural flow.
+      You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for
+      a more natural flow.
     </p>
 
     <h2>Your Users</h2>
     <p>
-      It takes no time at all to integrate Huddle with your app's authentication
-      solution. This means, once signed in to your app, your users can start
-      chatting immediately.
+      It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to
+      your app, your users can start chatting immediately.
     </p>
 
     <h2>Ready To Build Your Community?</h2>
     <Link>Get Started For Free</Link>
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
-      quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a,
+      ultrices quis sem.
     </p>
     <h2>Newsletter</h2>
     <p>
-      To recieve tips on how to grow your community, sign up to our weekly
-      newsletter. We’ll never send you spam or pass on your email address
+      To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass
+      on your email address
     </p>
     <Link>Subscribe</Link>
 
@@ -69,12 +66,12 @@
 <Attribution />
 
 <style>
-  main {
-    /* font-size: 14px; */
-    font-family: "Open Sans", system-ui;
-    /* @apply bg-main-400 min-h-full; */
-    @apply text-neutral-100;
-  }
+main {
+  /* font-size: 14px; */
+  font-family: 'Open Sans', system-ui;
+  /* @apply bg-main-400 min-h-full; */
+  @apply text-neutral-100;
+}
 
-  /* TODO: Add your design breakpoints and additional details here, for reference while styling. */
+/* TODO: Add your design breakpoints and additional details here, for reference while styling. */
 </style>
