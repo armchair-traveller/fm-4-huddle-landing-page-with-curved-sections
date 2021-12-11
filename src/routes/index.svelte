@@ -1,6 +1,5 @@
 <script>
 import Attribution from '$lib/Attribution.svelte'
-import Link from '$lib/Link.svelte'
 </script>
 
 <svelte:head>
@@ -9,7 +8,10 @@ import Link from '$lib/Link.svelte'
 
 <main>
   <section>
-    <Link>Try it free</Link>
+    <header class="flex justify-between">
+      <img class="w-36" src="/images/logo.svg" alt="logo" />
+      <a class="border-primary-100 border rounded-xl text-primary-100 p-4" href="/">Try it free</a>
+    </header>
 
     <h1>Build The Community Your Fans Will Love</h1>
 
@@ -18,7 +20,7 @@ import Link from '$lib/Link.svelte'
       with your users as you engage in genuine discussion.
     </p>
 
-    <Link>Get Started For Free</Link>
+    <a href="/">Get Started For Free</a>
 
     <h2>1.4k+</h2>
     <p>Communities Formed</p>
@@ -45,7 +47,7 @@ import Link from '$lib/Link.svelte'
     </p>
 
     <h2>Ready To Build Your Community?</h2>
-    <Link>Get Started For Free</Link>
+    <a href="/">Get Started For Free</a>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a,
@@ -56,7 +58,7 @@ import Link from '$lib/Link.svelte'
       To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass
       on your email address
     </p>
-    <Link>Subscribe</Link>
+    <a href="/">Subscribe</a>
 
     <p>Phone: +1-543-123-4567</p>
     <p>example@huddle.com</p>
