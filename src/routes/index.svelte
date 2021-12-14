@@ -21,7 +21,7 @@ import Attribution from '$lib/Attribution.svelte'
     </p>
 
     <a
-      class="mt-4 text-center py-3 px-12 rounded-full bg-primary-100 text-primary-400 font-semibold text-sm self-center"
+      class="mt-4 text-center py-3 px-12 rounded-full bg-primary-100 text-primary-400 font-semibold text-sm self-center bg"
       href="/">Get Started For Free</a
     >
   </section>
@@ -42,7 +42,9 @@ import Attribution from '$lib/Attribution.svelte'
     </div>
   </div>
 
-  <section class="[ grow-together ]">
+  <div class="[ grow-together ] w-full h-[112px]" />
+  <section class="bg-neutral-200">
+    <img src="/images/illustration-grow-together.svg" alt="grow together illustration" />
     <h2>Grow Together</h2>
     <p>
       Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful
