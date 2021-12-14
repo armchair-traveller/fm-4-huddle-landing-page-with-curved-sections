@@ -42,15 +42,16 @@ import Attribution from '$lib/Attribution.svelte'
     </div>
   </div>
 
-  <div class="[ grow-together ] w-full h-[112px]" />
-  <section class="bg-neutral-200">
-    <img src="/images/illustration-grow-together.svg" alt="grow together illustration" />
-    <h2>Grow Together</h2>
-    <p>
+  <div class="[ bg-section-top-1 ] h-[112px] bg-no-repeat" />
+  <section class="bg-neutral-200 flex flex-col items-center">
+    <img class="w-4/5 mt-20" src="/images/illustration-grow-together.svg" alt="grow together illustration" />
+    <h2 class="mt-20 font-bold text-2xl">Grow Together</h2>
+    <p class="mt-4 mb-12 text-center w-11/12">
       Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful
       conversations you miss out on with a feedback form.
     </p>
   </section>
+  <div class="[ bg-section-top-2 ] h-[103px] rotate-180 bg-no-repeat" />
 
   <h2>Flowing Conversations</h2>
   <p>
@@ -91,8 +92,11 @@ main {
   /* @apply bg-main-400 min-h-full; */
   @apply text-neutral-100;
 }
-.grow-together {
+.bg-section-top-1 {
   background-image: url('/images/bg-section-top-mobile-1.svg');
+}
+.bg-section-top-2 {
+  background-image: url('/images/bg-section-top-mobile-2.svg');
 }
 /* breakpoints: 375, 1440 */
 </style>
