@@ -6,7 +6,7 @@ import Attribution from '$lib/Attribution.svelte'
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </svelte:head>
 
-<main class="w-screen">
+<main>
   <header class="flex justify-between p-3">
     <img class="w-28 object-contain" src="/images/logo.svg" alt="logo" />
     <a class="border-primary-100 border rounded-full text-primary-100 px-5 py-1 text-sm" href="/">Try it free</a>
