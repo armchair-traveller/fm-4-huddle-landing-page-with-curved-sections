@@ -53,16 +53,18 @@ import Attribution from '$lib/Attribution.svelte'
   </section>
   <div class="[ bg-section-top-2 ] h-[103px] rotate-180 bg-no-repeat" />
 
-  <img
-    class="w-4/5 mt-20"
-    src="/images/illustration-flowing-conversation.svg"
-    alt="flowing conversation illustration"
-  />
-  <h2>Flowing Conversations</h2>
-  <p>
-    You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a
-    more natural flow.
-  </p>
+  <section class="flex flex-col items-center">
+    <img
+      class="w-4/5 mt-20"
+      src="/images/illustration-flowing-conversation.svg"
+      alt="flowing conversation illustration"
+    />
+    <h2 class="mt-20 font-bold text-2xl">Flowing Conversations</h2>
+    <p class="mt-4 mb-12 text-center w-11/12">
+      You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for
+      a more natural flow.
+    </p>
+  </section>
 
   <img class="w-4/5 mt-20" src="/images/illustration-your-users.svg" alt="your users illustration" />
   <h2>Your Users</h2>
