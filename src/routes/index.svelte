@@ -14,7 +14,7 @@ import Attribution from '$lib/Attribution.svelte'
   <section class="flex flex-col">
     <h1 class="text-center font-bold text-3xl mt-20">Build The Community<br /> Your Fans Will Love</h1>
 
-    <p class="px-4 my-7 text-center">
+    <p class="px-4 my-8 text-center">
       Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections
       with your users as you engage in genuine discussion.
     </p>
@@ -41,7 +41,7 @@ import Attribution from '$lib/Attribution.svelte'
     </div>
   </div>
 
-  <div class="[ bg-section-top-1 ] h-[112px] bg-no-repeat" />
+  <div class="[ bg-section-top-1 ] aspect-[375/112] bg-cover" />
   <section class="bg-neutral-200 flex flex-col items-center">
     <img class="w-4/5 mt-20" src="/images/illustration-grow-together.svg" alt="grow together illustration" />
     <h2 class="mt-20 font-bold text-2xl">Grow Together</h2>
@@ -50,7 +50,7 @@ import Attribution from '$lib/Attribution.svelte'
       conversations you miss out on with a feedback form.
     </p>
   </section>
-  <div class="[ bg-section-bottom-1 ] h-[103px] bg-no-repeat" />
+  <div class="[ bg-section-bottom-1 ] aspect-[375/52] bg-cover" />
 
   <section class="flex flex-col items-center">
     <img
@@ -65,7 +65,7 @@ import Attribution from '$lib/Attribution.svelte'
     </p>
   </section>
 
-  <div class="[ bg-section-top-2 ] h-[103px] mt-20 bg-no-repeat" />
+  <div class="[ bg-section-top-2 ] aspect-[375/103] mt-20 bg-cover" />
   <section class="bg-neutral-200 flex flex-col items-center">
     <img class="w-4/5 mt-8" src="/images/illustration-your-users.svg" alt="your users illustration" />
     <h2 class="mt-20 font-bold text-2xl">Your Users</h2>
@@ -74,7 +74,7 @@ import Attribution from '$lib/Attribution.svelte'
       your app, your users can start chatting immediately.
     </p>
   </section>
-  <div class="[ bg-section-bottom-2 ] h-[103px] bg-no-repeat" />
+  <div class="[ bg-section-bottom-2 ] aspect-[375/101] bg-cover" />
 
   <section class="flex flex-col items-center mt-20">
     <h2 class="text-2xl font-bold text-center">Ready To Build Your Community?</h2>
@@ -84,7 +84,7 @@ import Attribution from '$lib/Attribution.svelte'
     >
   </section>
 </main>
-<div class="[ bg-footer-top ] h-[53px] bg-no-repeat mt-60" />
+<div class="[ bg-footer-top ] aspect-[375/53] bg-cover mt-60" />
 <footer class="bg-neutral-100 text-neutral-200">
   <section class="flex flex-col p-4">
     <h2 class="text-xl font-bold mt-12 uppercase">Newsletter</h2>
