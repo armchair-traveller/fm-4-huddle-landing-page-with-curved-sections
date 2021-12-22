@@ -1,5 +1,8 @@
 <script>
 import Attribution from '$lib/Attribution.svelte'
+import Instagram from 'virtual:icons/mdi/instagram'
+import Facebook from 'virtual:icons/mdi/facebook-box'
+import Twitter from 'virtual:icons/mdi/twitter-box'
 </script>
 
 <svelte:head>
@@ -99,15 +102,28 @@ import Attribution from '$lib/Attribution.svelte'
     >
   </section>
 
-  <section>
+  <section class="flex flex-col p-4">
     <img class="w-48 object-contain mt-28" src="/images/logo-white.svg" alt="white logo" />
-    <p>
+    <p class="mt-4">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a,
       ultrices quis sem.
     </p>
-    <p>Phone: +1-543-123-4567</p>
-    <p>example@huddle.com</p>
-    <!-- TODO: Social icon links -->
+    <div class="flex gap-4 items-center mt-8 mb-4">
+      <img class="aspect-square" src="/images/icon-phone.svg" alt="phone icon" />
+      <p>Phone: +1-543-123-4567</p>
+    </div>
+    <div class="flex gap-4 items-center">
+      <img class="aspect-[20/16]" src="/images/icon-email.svg" alt="email icon" />
+      <p>example@huddle.com</p>
+    </div>
+
+    <div class="flex gap-4 items-center -ml-1 my-8">
+      <!-- TODO: Social icon links -->
+      <Facebook width="28" height="28" />
+      <Instagram width="28" height="28" />
+      <Twitter width="28" height="28" />
+      <!-- <img class="aspect-[20/16]" src="/images/icon-email.svg" alt="email icon" /> -->
+    </div>
   </section>
 </footer>
 
