@@ -118,11 +118,9 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
     </div>
 
     <div class="flex gap-4 items-center -ml-1 my-8">
-      <!-- TODO: Social icon links -->
       <Facebook width="28" height="28" />
       <Instagram width="28" height="28" />
       <Twitter width="28" height="28" />
-      <!-- <img class="aspect-[20/16]" src="/images/icon-email.svg" alt="email icon" /> -->
     </div>
   </section>
 </footer>
