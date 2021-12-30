@@ -15,9 +15,11 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
 </header>
 <main class="text-neutral-100">
   <section class="flex flex-col">
-    <h1 class="text-center font-bold text-3xl mt-20">Build The Community<br /> Your Fans Will Love</h1>
+    <h1 class="text-center font-bold text-3xl mt-20">
+      Build The Community<br class="lg:hidden" /> Your Fans Will Love
+    </h1>
 
-    <p class="px-4 my-8 text-center">
+    <p class="px-4 my-8 max-w-prose text-center mx-auto">
       Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections
       with your users as you engage in genuine discussion.
     </p>
@@ -28,22 +30,25 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
     >
   </section>
 
-  <div class="flex flex-col items-center p-3 mt-20">
-    <img src="/images/screen-mockups.svg" alt="mockups" />
+  <div class="flex flex-col items-center p-3 mt-20 lg:contents">
+    <img class="lg:mx-auto" src="/images/screen-mockups.svg" alt="mockups" />
 
-    <div class="mt-28">
-      <img class="w-9 object-contain" src="/images/icon-communities.svg" alt="communities" />
-      <h2 class="mt-2 font-bold text-center text-7xl">1.4k+</h2>
-      <p class="mt-5 text-center opacity-80">Communities Formed</p>
-    </div>
+    <div class="contents lg:flex mx-auto justify-between max-w-screen-lg px-20">
+      <div class="mt-28">
+        <img class="w-9 object-contain" src="/images/icon-communities.svg" alt="communities" />
+        <h2 class="mt-2 font-bold text-center text-7xl">1.4k+</h2>
+        <p class="mt-5 text-center opacity-80">Communities Formed</p>
+      </div>
 
-    <div class="mt-28">
-      <img class="w-9 object-contain" src="/images/icon-messages.svg" alt="messages" />
-      <h2 class="mt-2 font-bold text-center text-6xl">2.7m+</h2>
-      <p class="mt-5 text-center opacity-80">Messages Sent</p>
+      <div class="mt-28">
+        <img class="w-9 object-contain" src="/images/icon-messages.svg" alt="messages" />
+        <h2 class="mt-2 font-bold text-center text-6xl lg:text-7xl">2.7m+</h2>
+        <p class="mt-5 text-center opacity-80">Messages Sent</p>
+      </div>
     </div>
   </div>
 
+  <!-- TODO: Set aspect ratio for lg desktop bgs -->
   <div class="[ bg-section-top-1 ] aspect-[375/112] bg-cover" />
   <section class="bg-neutral-200 flex flex-col items-center">
     <img class="w-4/5 mt-20" src="/images/illustration-grow-together.svg" alt="grow together illustration" />
@@ -146,6 +151,23 @@ main {
 }
 .bg-footer-top {
   background-image: url('/images/bg-footer-top-mobile.svg');
+}
+@media (min-width: 1024px) {
+  .bg-section-top-1 {
+    background-image: url('/images/bg-section-top-desktop-1.svg');
+  }
+  .bg-section-top-2 {
+    background-image: url('/images/bg-section-top-desktop-2.svg');
+  }
+  .bg-section-bottom-1 {
+    background-image: url('/images/bg-section-bottom-desktop-1.svg');
+  }
+  .bg-section-bottom-2 {
+    background-image: url('/images/bg-section-bottom-desktop-2.svg');
+  }
+  .bg-footer-top {
+    background-image: url('/images/bg-footer-top-desktop.svg');
+  }
 }
 /* breakpoints: 375, 1440 */
 </style>
