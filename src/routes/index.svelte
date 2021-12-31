@@ -9,7 +9,7 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </svelte:head>
 
-<header class="flex justify-between p-3 text-neutral-100">
+<header class="flex justify-between p-3 text-neutral-100 lg:max-w-screen-lg lg:mx-auto">
   <img class="w-28 object-contain" src="/images/logo.svg" alt="logo" />
   <a class="border-primary-100 border rounded-full text-primary-100 px-5 py-1 text-sm" href="/">Try it free</a>
 </header>
@@ -48,17 +48,24 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
     </div>
   </div>
 
-  <!-- TODO: Set aspect ratio for lg desktop bgs -->
-  <div class="[ bg-section-top-1 ] aspect-[375/112] bg-cover" />
+  <div class="[ bg-section-top-1 ] aspect-[375/112] lg:aspect-[1440/165] bg-cover" />
   <section class="bg-neutral-200 flex flex-col items-center">
-    <img class="w-4/5 mt-20" src="/images/illustration-grow-together.svg" alt="grow together illustration" />
-    <h2 class="mt-20 font-bold text-2xl">Grow Together</h2>
-    <p class="mt-4 mb-12 text-center w-10/12">
-      Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful
-      conversations you miss out on with a feedback form.
-    </p>
+    <div class="contents lg:flex lg:flex-row-reverse lg:max-w-screen-lg lg:items-center">
+      <img
+        class="w-4/5 mt-20 lg:w-[40%]"
+        src="/images/illustration-grow-together.svg"
+        alt="grow together illustration"
+      />
+      <div class="contents lg:block">
+        <h2 class="mt-20 font-bold text-2xl">Grow Together</h2>
+        <p class="mt-4 mb-12 text-center w-10/12 lg:text-left">
+          Generate meaningful discussions with your audience and build a strong, loyal community. Think of the
+          insightful conversations you miss out on with a feedback form.
+        </p>
+      </div>
+    </div>
   </section>
-  <div class="[ bg-section-bottom-1 ] aspect-[375/52] bg-cover" />
+  <div class="[ bg-section-bottom-1 ] aspect-[375/52] lg:aspect-[1440/139] bg-cover" />
 
   <section class="flex flex-col items-center">
     <img
@@ -73,7 +80,7 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
     </p>
   </section>
 
-  <div class="[ bg-section-top-2 ] aspect-[375/103] mt-20 bg-cover" />
+  <div class="[ bg-section-top-2 ] aspect-[375/103] lg:aspect-[1440/156] mt-20 bg-cover" />
   <section class="bg-neutral-200 flex flex-col items-center">
     <img class="w-4/5 mt-8" src="/images/illustration-your-users.svg" alt="your users illustration" />
     <h2 class="mt-20 font-bold text-2xl">Your Users</h2>
@@ -82,7 +89,7 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
       your app, your users can start chatting immediately.
     </p>
   </section>
-  <div class="[ bg-section-bottom-2 ] aspect-[375/101] bg-cover" />
+  <div class="[ bg-section-bottom-2 ] aspect-[375/101] lg:aspect-[1440/139] bg-cover" />
 
   <section class="flex flex-col items-center mt-20">
     <h2 class="text-2xl font-bold text-center">Ready To Build Your Community?</h2>
@@ -92,7 +99,7 @@ import Twitter from 'virtual:icons/mdi/twitter-box'
     >
   </section>
 </main>
-<div class="[ bg-footer-top ] aspect-[375/53] bg-cover mt-60" />
+<div class="[ bg-footer-top ] aspect-[375/53] lg:aspect-[1440/158] bg-cover mt-60" />
 <footer class="bg-neutral-100 text-neutral-200">
   <section class="flex flex-col p-4">
     <h2 class="text-xl font-bold mt-12 uppercase">Newsletter</h2>
