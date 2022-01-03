@@ -54,8 +54,8 @@ $: if (value) isValid = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
     </div>
   </div>
 
-  <div class="[ bg-section-top-1 ] aspect-[375/112] lg:aspect-[1440/165] bg-cover" />
-  <section class="bg-neutral-200 flex flex-col items-center p-4 xl:p-0">
+  <div class="[ bg-section-top-1 ] aspect-[375/112] lg:aspect-[1440/165] bg-cover lg:mt-20" />
+  <section class="bg-neutral-200 flex flex-col items-center p-4 xl:px-0 lg:py-10">
     <div class="contents lg:flex lg:flex-row-reverse lg:max-w-screen-lg lg:items-center">
       <img
         class="w-4/5 mt-20 lg:w-2/5 lg:mt-0"
@@ -91,7 +91,7 @@ $: if (value) isValid = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
   </section>
 
   <div class="[ bg-section-top-2 ] aspect-[375/103] lg:aspect-[1440/156] mt-20 bg-cover" />
-  <section class="bg-neutral-200 flex flex-col items-center p-4 xl:p-0">
+  <section class="bg-neutral-200 flex flex-col items-center p-4 xl:px-0 lg:py-10">
     <div class="contents lg:flex lg:flex-row-reverse lg:max-w-screen-lg lg:items-center">
       <img
         class="w-4/5 mt-8 lg:w-2/5 lg:mt-0"
@@ -109,7 +109,7 @@ $: if (value) isValid = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
   </section>
   <div class="[ bg-section-bottom-2 ] aspect-[375/101] lg:aspect-[1440/139] bg-cover" />
 
-  <section class="flex flex-col items-center mt-20">
+  <section class="flex flex-col items-center mt-48">
     <h2 class="text-2xl font-bold text-center">Ready To Build Your Community?</h2>
     <a
       class="[ btn-filled ] mt-10 text-center py-3 px-12 rounded-full bg-primary-100 text-primary-400 font-semibold text-sm self-center"
@@ -118,7 +118,7 @@ $: if (value) isValid = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-
   </section>
 </main>
 <div class="[ bg-footer-top ] aspect-[375/53] lg:aspect-[1440/158] bg-cover mt-60" />
-<footer class="bg-neutral-100 text-neutral-200">
+<footer class="bg-neutral-100 text-neutral-200 lg:py-16">
   <div class="contents lg:flex-row-reverse lg:flex lg:justify-between lg:max-w-screen-lg lg:mx-auto">
     <section class="flex flex-col p-4">
       <h2 class="text-xl font-bold mt-12 uppercase lg:mt-0">Newsletter</h2>
